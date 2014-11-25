@@ -1,25 +1,18 @@
-//
-//  ViewController.swift
-//  Cartas
-//
-//  Created by iMac 8 on 25/11/14.
-//  Copyright (c) 2014 Javier Galardi. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func pulsarCarta(sender: UIButton) {
+        if let contents = sender.currentTitle {
+            sender.setTitle(nil, forState: UIControlState.Normal)
+            sender.setBackgroundImage(UIImage(named: "cardback"), forState: UIControlState.Normal)
+        } else {
+            sender.setTitle("A❤️", forState: UIControlState.Normal)
+            sender.setBackgroundImage(UIImage(named: "cardfront"), forState: UIControlState.Normal)
+        }
     }
-
-
 }
-
