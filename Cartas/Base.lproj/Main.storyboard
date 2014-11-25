@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybW-A1-43h">
-                                <rect key="frame" x="130" y="200" width="60" height="80"/>
+                                <rect key="frame" x="28" y="28" width="60" height="80"/>
                                 <state key="normal" backgroundImage="cardback">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -26,13 +26,200 @@
                                     <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1np-iK-5ln"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POH-E7-GQe">
+                                <rect key="frame" x="96" y="28" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4G3-nX-4gC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKU-bH-E3g">
+                                <rect key="frame" x="164" y="28" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ddc-xa-RLo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0L-9u-oqI">
+                                <rect key="frame" x="232" y="28" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JSm-B7-N1Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylh-57-eC3">
+                                <rect key="frame" x="28" y="116" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yD-EE-yxh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ia1-os-obb">
+                                <rect key="frame" x="96" y="116" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hvp-TA-hvv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Woq-5V-dZ2">
+                                <rect key="frame" x="164" y="116" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1fc-T9-mfY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTA-sf-GNN">
+                                <rect key="frame" x="232" y="116" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AH2-GQ-2GX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ph0-u0-zrQ">
+                                <rect key="frame" x="28" y="204" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U8W-12-tPE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpt-NO-nNQ">
+                                <rect key="frame" x="96" y="204" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o58-Ji-reM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogP-X7-Urx">
+                                <rect key="frame" x="164" y="204" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WPm-mM-wHo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxc-lv-5cn">
+                                <rect key="frame" x="232" y="204" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9k7-Uf-AhV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxi-ty-Ahs">
+                                <rect key="frame" x="28" y="292" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsz-ga-3cN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMi-zI-6eu">
+                                <rect key="frame" x="96" y="292" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aBd-6D-O1C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upi-oq-bf3">
+                                <rect key="frame" x="164" y="292" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH5-OS-pU4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bG1-gn-bLE">
+                                <rect key="frame" x="232" y="292" width="60" height="80"/>
+                                <state key="normal" backgroundImage="cardback">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarCarta:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qGU-co-fdF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puntos: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hi1-VF-KN6">
+                                <rect key="frame" x="28" y="434" width="172" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ht5-hr-qeH">
+                                <rect key="frame" x="208" y="430" width="84" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Nuevo">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pulsarNuevo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pn1-bp-uzf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="puntosLabel" destination="hi1-VF-KN6" id="bn1-Vt-1PH"/>
+                        <outletCollection property="botonesCarta" destination="ybW-A1-43h" collectionClass="NSMutableArray" id="Doc-Ie-yI4"/>
+                        <outletCollection property="botonesCarta" destination="POH-E7-GQe" collectionClass="NSMutableArray" id="bi1-kD-WEH"/>
+                        <outletCollection property="botonesCarta" destination="wKU-bH-E3g" collectionClass="NSMutableArray" id="Jg2-qM-mWd"/>
+                        <outletCollection property="botonesCarta" destination="s0L-9u-oqI" collectionClass="NSMutableArray" id="jOt-g8-3ek"/>
+                        <outletCollection property="botonesCarta" destination="Ylh-57-eC3" collectionClass="NSMutableArray" id="FBz-jv-8sg"/>
+                        <outletCollection property="botonesCarta" destination="Ia1-os-obb" collectionClass="NSMutableArray" id="b40-ID-pBM"/>
+                        <outletCollection property="botonesCarta" destination="Woq-5V-dZ2" collectionClass="NSMutableArray" id="lQY-xh-9HX"/>
+                        <outletCollection property="botonesCarta" destination="ZTA-sf-GNN" collectionClass="NSMutableArray" id="VKa-Lj-ZWT"/>
+                        <outletCollection property="botonesCarta" destination="ph0-u0-zrQ" collectionClass="NSMutableArray" id="rSc-et-V3V"/>
+                        <outletCollection property="botonesCarta" destination="Zpt-NO-nNQ" collectionClass="NSMutableArray" id="nla-eA-KWy"/>
+                        <outletCollection property="botonesCarta" destination="ogP-X7-Urx" collectionClass="NSMutableArray" id="NOf-Pi-tuR"/>
+                        <outletCollection property="botonesCarta" destination="gxc-lv-5cn" collectionClass="NSMutableArray" id="Q31-Ls-64H"/>
+                        <outletCollection property="botonesCarta" destination="wxi-ty-Ahs" collectionClass="NSMutableArray" id="aje-Gq-8cu"/>
+                        <outletCollection property="botonesCarta" destination="WMi-zI-6eu" collectionClass="NSMutableArray" id="7zQ-L9-6TX"/>
+                        <outletCollection property="botonesCarta" destination="Upi-oq-bf3" collectionClass="NSMutableArray" id="rn5-iU-rqW"/>
+                        <outletCollection property="botonesCarta" destination="bG1-gn-bLE" collectionClass="NSMutableArray" id="lcI-ED-ZCi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="396" y="383"/>
         </scene>
     </scenes>
     <resources>
