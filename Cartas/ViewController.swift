@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     func nuevoJuego() {
-        cardGame = CardGame(cardsCount: UInt(botonesCarta.count), deck: PlayingCardDeck())
+        cardGame = CardGame(count: UInt(botonesCarta.count), deck: PlayingCardDeck())
         actualizarUI()
     }
     
@@ -43,5 +43,6 @@ class ViewController: UIViewController {
                 }
             }
         }
+        puntosLabel.text = "Puntos: \(cardGame.score)"
     }
 }

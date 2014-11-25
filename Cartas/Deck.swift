@@ -11,7 +11,7 @@ class Deck {
         }
     }
 
-    func drawRandomCart() -> Card? {
+    func drawRandomCard() -> Card? {
         var card: Card?
 
         if cards.count > 0 {

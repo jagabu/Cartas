@@ -49,8 +49,6 @@ class PlayingCard : Card {
         for card in otherCards {
             if self.isSuiteSameColour(card) && self.isRankCompatible(card) {
                 score += matchPoints
-            } else {
-                score -= penaltyPoints
             }
         }
         return score
